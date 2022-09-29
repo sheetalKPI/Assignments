@@ -24,6 +24,10 @@ public class Student {
 		Student s4 = new Student("Anu","BBA",20);
 		Student s5 = new Student("Shivya","BCA",20);
 		
-		System.out.println(s1.getName(),s2.getName(),s3.getName(),s4.getName(),s5.getName());
+		System.out.println(s1.getName());
+		System.out.println(s2.getName());
+		System.out.println(s3.getName());
+		System.out.println(s4.getName());
+		System.out.println(s5.getName());
 	}
 }
