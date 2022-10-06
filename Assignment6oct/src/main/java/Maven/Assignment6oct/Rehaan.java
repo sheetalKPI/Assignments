@@ -2,57 +2,57 @@ package Maven.Assignment6oct;
 
 public class Rehaan extends Employee{
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
 	@Override
 	int EmpID() {
-		// TODO Auto-generated method stub
-		return 0;
+		return 107;
 	}
 
 	@Override
 	void EmpName() {
-		// TODO Auto-generated method stub
+    System.out.println("Rehaan");
 		
 	}
 
 	@Override
 	void Designation() {
-		// TODO Auto-generated method stub
-		
+		 System.out.println("Data Engineer");
 	}
 
 	@Override
 	float Salary() {
-		// TODO Auto-generated method stub
-		return 0;
+		return 20000;
 	}
 
 	@Override
 	void Lacotion() {
-		// TODO Auto-generated method stub
-		
+		 System.out.println("Delhi");
 	}
 
 	@Override
 	float Exp() {
-		// TODO Auto-generated method stub
-		return 0;
+		return 2;
 	}
 
 	@Override
 	int DOB() {
-		// TODO Auto-generated method stub
-		return 0;
+		return 10/8/1996;
 	}
 
 	@Override
 	void Qualification() {
-		// TODO Auto-generated method stub
+		 System.out.println("BE");
+	}
+
+	@Override
+	void run() {
+		System.out.println("Rehaan is used in thread");
+		}
+		
+		public static void main(String[] args) {
+		     Thread t7=new Thread("employee number 7");
+		     t7.start();
+			}
 		
 	}
 
-}
+

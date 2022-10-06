@@ -9,4 +9,5 @@ public abstract class Employee {
     abstract float Exp();
     abstract int DOB();
     abstract void Qualification();
+    abstract void run();
 }

@@ -2,8 +2,6 @@ package Maven.Assignment6oct;
 
 public class Arohi extends Employee {
 
-	public static void main(String[] args) {
-	}
 	@Override
 	int EmpID() {
 		return 101;
@@ -23,7 +21,7 @@ public class Arohi extends Employee {
 
 	@Override
 	float Salary() {
-		return 10000;
+		return 20000;
 	}
 
 	@Override
@@ -39,14 +37,23 @@ public class Arohi extends Employee {
 
 	@Override
 	int DOB() {
-		return 20/10/1990;
+		return 20/10/1996;
 	}
 
 	@Override
 	void Qualification() {
 		System.out.println("B.tech");
 		
+	}
+	@Override
+	void run() {
+		System.out.println("Arohi is used in thread");
+	}
+	
+	public static void main(String[] args) {
+	     Thread t1=new Thread("employee number 1");
+	     t1.start();
+		}
 		
 	}
 
-}
