@@ -2,13 +2,13 @@ package Maven.Assignment6oct;
 
 public class Kiara implements EmployeeInterface{
 
-	public void F_name() {
-		System.out.println("Kiara");
+	public String F_name() {
+		return "Kiara";
 		
 	}
 
-	public void L_name() {
-		System.out.println("Advani");
+	public String L_name() {
+		return "Advani";
 		
 	}
 

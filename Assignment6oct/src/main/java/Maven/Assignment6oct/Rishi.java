@@ -2,12 +2,12 @@ package Maven.Assignment6oct;
 
 public class Rishi implements EmployeeInterface{
 
-	public void F_name() {
-		System.out.println("Rishi");
+	public String F_name() {
+		return "Rishi";
 	}
 
-	public void L_name() {
-		System.out.println("Kapoor");	
+	public String L_name() {
+		return "Kapoor";	
 	}
 
 	public int age() {

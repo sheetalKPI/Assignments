@@ -2,15 +2,13 @@ package Maven.Assignment6oct;
 
 public class Alia implements EmployeeInterface{
 
-	public void F_name() {
-		System.out.println("Alia");
-		
-	}
+	public String  F_name() {
+		return "Alia";
+		}
 
-	public void L_name() {
-		System.out.println("Bhatt");
-		
-	}
+	public String L_name() {
+			return "Bhatt";
+		}
 
 	public int age() {
 		return 28;

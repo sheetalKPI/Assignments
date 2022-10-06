@@ -2,13 +2,13 @@ package Maven.Assignment6oct;
 
 public class Isha implements EmployeeInterface{
 
-	public void F_name() {
-		System.out.println("Isha");
+	public String F_name() {
+		return "Isha";
 		
 	}
 
-	public void L_name() {
-		System.out.println("Gupta");
+	public String L_name() {
+		return "Gupta";
 		
 	}
 
