@@ -1,6 +1,6 @@
 package Maven.Assignment6oct;
 
-public class Izaa extends Employee{
+public class Izaa extends Employee implements Runnable{
 
 	@Override
 	int EmpID() {
@@ -46,7 +46,7 @@ public class Izaa extends Employee{
 	}
 
 	@Override
-	void run() {
+	public void run() {
 		System.out.println("Izaa is used in thread");
 		
 	}

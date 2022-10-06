@@ -1,6 +1,6 @@
 package Maven.Assignment6oct;
 
-public class Kartik extends Employee{
+public class Kartik extends Employee implements Runnable{
 
 	@Override
 	int EmpID() {
